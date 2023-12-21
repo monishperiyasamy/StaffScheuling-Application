@@ -32,15 +32,15 @@ Embrace the efficiency of microservices for authentication, employee management,
 Centralized API gateway for streamlined communication, ensuring a seamless user experience.  
 ## 🛠 Technologies at Play  
 **Frontend Fantasy:**  
-
 Crafted with React.js, fueled by Redux for state management.  
+
 **Backend Brilliance:**  
-
 Node.js with Express for microservices, fortified with the security prowess of Spring Security.  
-Employed JWT for authentication, ensuring a fortress around user sessions.
-**Database Dynamo:**  
+Employed JWT for authentication, ensuring a fortress around user sessions.  
 
-MongoDB serves as the bedrock for employee and scheduling data.  
+**Database Dynamo:**  
+MySQL serves as the bedrock for employee and scheduling data.   
+
 ## 🏗 Project Structure  
 **/backend**
 
@@ -53,7 +53,7 @@ timeoff
 
 **/frontend**  
 ## 🚀 Dive into the Code  
-To run Spectech locally on your machine, follow these steps:  
+To run Staff Scheduling Application locally on your machine, follow these steps:  
 
 ### Prerequisites  
 
@@ -73,8 +73,9 @@ git clone https://github.com/monishperiyasamy/StaffScheuling-Application
 **Navigate to Frontend:** cd frontend  
 **Install Frontend Dependencies:** npm install  
 **Run the Frontend Application:** npm start  
+
 ### Backend (Spring Boot)  
-**Navigate to the Project Directory:** cd authenticate 
+**Navigate to the Project Directory:** cd authenticate   
 **Build and run the Spring Boot application:** ./mvnw spring-boot:run  
 You can repeat similar instructions for each backend microservice, replacing "authenticate" with the respective folder names.  
 ### Database  
