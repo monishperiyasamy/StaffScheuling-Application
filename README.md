@@ -59,11 +59,11 @@ To run Staff Scheduling Application locally on your machine, follow these steps:
 
 Before you begin, ensure that you have the following prerequisites installed on your machine:  
 
-- **Java Development Kit (JDK):** Spectech uses Java, so make sure you have the JDK installed. You can download it from [Oracle's website](https://www.oracle.com/java/technologies/javase-downloads.html) or use OpenJDK.  
+- **Java Development Kit (JDK):** Staff Scheduling Application uses Java, so make sure you have the JDK installed. You can download it from [Oracle's website](https://www.oracle.com/java/technologies/javase-downloads.html) or use OpenJDK.  
 
 - **Node.js:** Ensure that Node.js is installed on your machine. You can download it from [the official Node.js website](https://nodejs.org/).  
 
-- **MySQL Database:** Spectech relies on MySQL for data storage. Install and set up MySQL on your machine. You can download MySQL from [the official MySQL website](https://dev.mysql.com/downloads/).  
+- **MySQL Database:** Staff Scheduling application relies on MySQL for data storage. Install and set up MySQL on your machine. You can download MySQL from [the official MySQL website](https://dev.mysql.com/downloads/).  
 
 **Clone the Repository:**
 
