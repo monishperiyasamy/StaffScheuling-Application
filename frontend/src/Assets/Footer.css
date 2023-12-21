@@ -1,0 +1,171 @@
+/* Reset CSS */
+
+/* Footer styles */
+.footer {
+  color: white;
+  background-color: black;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem 0;
+  box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.footer-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-column {
+  flex: 1;
+  padding: 0 1rem;
+}
+
+.footer-heading {
+  margin-bottom: 3rem;
+  font-size: 1.5rem;
+  color: #333;
+  
+}
+
+.footer-text {
+  font-size: 1rem;
+  line-height: 1.3rem;
+  color: #333;
+}
+
+.footer-list-quick {
+  list-style:none;
+  padding: 0;
+  
+}
+
+.footer-list-item {
+  margin-bottom: 0.625rem;
+  margin-right: 100px;
+  text-align: left;
+  padding: 0px 0px;
+}
+
+.footer-link {
+  color: #333;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #6faaff;
+}
+
+.social-icons {
+  display: flex;
+  column-gap: 0.625rem;
+  width: 40%;
+  list-style: none;
+  padding:-4%;
+ 
+}
+
+.social-icons-item {
+  margin-bottom: 0rem;
+
+}
+.ico
+{
+  size: 100px;
+}
+/* Specific icon styles */
+.social-icon-link {
+  display: grid;
+  place-content: center;
+  width: 29rem;
+  height: 2.5rem;
+  border-radius: 100%;
+  border: 1.5px solid rgb(246, 243, 243);
+  text-decoration: none;
+  color: rgb(244, 238, 238);
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icon-link.facebook:hover {
+  background-color: #1877f2; /* Facebook blue color */
+  color: #fff;
+}
+
+.social-icon-link.instagram:hover {
+  background-color: pink;
+  color: #fff;
+}
+
+.social-icon-link.twitter:hover {
+  background-color: blue;
+  color: #fff;
+}
+
+.social-icon-link.github:hover {
+  background-color: rgb(251, 240, 240);
+  color: #fff;
+}
+
+/* Add this CSS to your Footer.css or a separate CSS file */
+
+/* Style for the "Legal" section */
+.footer-column h4 {
+  font-size: 1.2rem; /* Adjust the font size as needed */
+  margin-bottom: 10px;
+  color: #f9f7f7; /* Adjust the color as needed */
+}
+
+/* Style for the "Terms and Conditions" link */
+.footer-link {
+  color: rgb(255, 255, 255); /* Link color */
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline; /* Underline the link on hover */
+}
+
+/* Copyright text style */
+.copyright {
+  margin-top: 20px;
+  font-size: 0.8rem; /* Adjust the font size as needed */
+  color: #fffefe; /* Adjust the color as needed */
+}
+
+/* Responsive adjustments for mobile version */
+@media screen and (max-width: 768px) {
+  .footer-row {
+    flex-direction: column;
+  }
+
+  .footer-column {
+    width: 100%;
+    margin: 0;
+   
+    text-align: center;
+  }
+
+  .footer-heading {
+    font-size: 1.3125rem;
+  }
+
+  .footer-text,
+  .footer-link {
+    font-size: 0.9375rem;
+  }
+
+  .terms-cond {
+    margin-left: 0;
+    margin-top: 10px; /* Adjust margin as needed */
+  }
+
+  .social-icon-link {
+    width: 1.975rem;
+    height: 1.975rem;
+  }
+}

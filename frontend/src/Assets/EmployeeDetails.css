@@ -1,0 +1,140 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.emp-body {
+   padding-top: 80px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: large;
+  color: #222;
+}
+
+.whole {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+/* EmployeeDetails.css */
+
+/* ... other styles ... */
+
+.card-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Create three columns for each row */
+  gap: 60px; /* Adjust the gap between cards as needed */
+  margin: 10px;
+  margin-left: 20%;
+  margin-right: 10%;
+}
+
+/* Update your .card class to adjust the width */
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+  cursor: pointer; /* Add cursor pointer to make it clear that the card is clickable */
+}
+
+/* The rest of your CSS remains the same */
+
+.profile-photo {
+  max-width: 70%;
+  height: auto;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.top {
+  height: auto;
+  border-radius: 4px 4px 0px 0px;
+  border: 1px solid #ddd;
+  padding: 0px 16px;
+  text-align: center;
+}
+
+.name {
+  margin: 0;
+  color: black;
+}
+
+.title {
+  margin-top: 8px;
+  text-align: center;
+  color: black;
+}
+
+.time {
+  margin-top: 5px;
+  color: black;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.bottom {
+  height: auto;
+  border-radius: 0px 0px 4px 4px;
+  padding: 8px;
+  text-align: center;
+  color: black;
+}
+
+.profile-action-edit {
+  display: block;
+  width: 80%;
+  height: 40px;
+  font-family: inherit;
+  font-size: 1em;
+  text-align: center;
+  border-radius: 40px;
+  border: none;
+  border-color: #444;
+  background-color:rgb(42, 195, 237);
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+.profile-action-edit:hover {
+  background-color:rgb(90, 202, 233);
+  color: white;
+}
+
+.profile-action-delete {
+  display: block;
+  width: 80%;
+  height: 40px;
+  font-family: inherit;
+  font-size: 1em;
+  text-align: center;
+  border-radius: 40px;
+  border: none;
+  border-color: #444;
+  background-color:rgb(239, 125, 125);
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+.profile-action-delete:hover {
+  background-color:red;
+  color: white;
+}
+.add-button {
+  width: 170px;
+  height: 50px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border-color: #444;
+  background-color: rgb(108, 185, 134);
+  margin: 20px auto;
+  margin-left: 360%;
+}
+
+.add-button:hover {
+  background-color: rgb(117, 231, 155);
+}

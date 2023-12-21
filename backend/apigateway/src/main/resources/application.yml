@@ -1,0 +1,31 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: products  -service-route
+          uri: lb://authenticate-server
+          predicates:
+            - Path=/auth/**
+
+        - id: order-service-route
+          uri: lb://employee-server
+          predicates:
+            - Path=/employee/**
+            
+        - id: shiftschedule-service-route
+          uri: lb://shiftschedule-server
+          predicates:
+            - Path=/schedule/**
+            
+        - id: timeoff-service-route
+          uri: lb://timeoff-server
+          predicates:
+            - Path=/timeoff-requests/**
+        
+       
+
+  main:
+    web-application-type: REACTIVE
+            
+            
+         

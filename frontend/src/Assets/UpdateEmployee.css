@@ -1,0 +1,56 @@
+.fees-form-container {
+    width: 100%;
+    position: absolute;
+    left:35%;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-image: linear-gradient(rgb(193, 150, 89),rgb(227, 177, 125),rgb(193, 150, 89));
+    border-radius: 5px;
+    box-shadow: 0 2px 50px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+  }
+  
+  .fees-form-container h2 {
+    margin-top: 0;
+  
+  }
+  
+  .form-group {
+    margin-bottom: 30px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 70%;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  #addfee
+  {
+    position: absolute;
+    top:16%;
+    left:21%;
+  }
+  .submit-button {
+    display: block;
+    width: 30%;
+    padding: 10px;
+    margin-left: 200px;
+  background-color: aqua;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  

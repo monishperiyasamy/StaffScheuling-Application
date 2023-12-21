@@ -1,0 +1,33 @@
+.sfaq-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .sfaq-item {
+    margin-bottom: 20px;
+    border: 1px solid #795548;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .sfaq-question {
+    background-color: #795548;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .sfaq-answer {
+    padding: 10px;
+    display: none;
+    background-color: #d7ccc8;
+  }
+  
+  .sfaq-question.active {
+    background-color: #6d4c41;
+  }
+  
+  .sfaq-answer.active {
+    display:block;
+}
